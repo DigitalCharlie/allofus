@@ -157,7 +157,11 @@
     }
 
     .what-saying {
+        background:#71d4dd;
+    }
 
+    .what-saying-attribution {
+        font-style:italic;
     }
 
     .what-doing {
