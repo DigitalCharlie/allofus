@@ -19,7 +19,7 @@
 /* TYPOGRAPHY */
     body {
         font-family: roboto;
-        margin:none;
+        margin:0;
     }
 
     p {
@@ -67,6 +67,10 @@
         font-size:24px;
         padding-right:15px;
         vertical-align: top;
+    }
+
+    .container {
+        padding-top:50px;
     }
 
 /* FOOTER CSS */
@@ -136,12 +140,11 @@
     }
 
     .splash {
-        background-color: #000000;
-        background-image: url("../images/stopthetppsign.jpg");
+        background-color: #1a1a1a;
+        background-image: url("../images/bw-crowd.jpg");
         background-size:100%;
         background-repeat:no-repeat;
         color:#ffffff;
-        padding-bottom:10px;
     }
 
     .more-details {
@@ -267,13 +270,13 @@
         width:100%;
     }
 
-    button {
+    button, .btn {
         display: inline-block;
-        background: rgb(50, 177, 34);
+        background: #ec476b;
         text-align: center;
-        padding:8px 20px;
-        font-size: 24px;
-        font-weight: bold;
+        padding:8px 0;
+        font-size: 18px;
+        font-weight: 900;
         letter-spacing: 1px;
         text-transform: uppercase;
         text-decoration: none;
@@ -283,8 +286,8 @@
         border-style: none;
     }
 
-    button:hover {
-        background: #ec476b;
+    button:hover, .btn:hover {
+        background: #71d4dd;
         transition-duration: .5s;
         -webkit-transition-duration: .5s;
     }
