@@ -104,28 +104,9 @@
         margin:0 auto;
     }
 
-    .sp_fb_small, .sp_tw_small, .sp_em_small {
+    .share-icon {
         padding:3px 5px 0 5px;
         display:inline-block;
-    }
-
-    .sp_fb_small a {
-        background: url(http://www.tppwhipcount.com/images/facebook-icon.png) !important;
-        background-size:100% !important;
-        width:23px !important;
-        height: 23px !important;
-    }
-
-    .sp_tw_small a {
-        background: url(http://www.tppwhipcount.com/images/twitter-icon.png) !important;
-        background-size:100% !important;
-        width:23px !important;
-        height: 23px !important;
-    }
-
-    .sp_em_small a {
-        background: url(http://www.tppwhipcount.com/images/email-icon.png) !important;
-        background-size:100% !important;
         width:23px !important;
         height: 23px !important;
     }
