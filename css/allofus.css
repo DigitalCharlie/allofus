@@ -32,6 +32,7 @@
     }
 
     h1 {
+        text-align: center;
 
     }
 
@@ -137,8 +138,12 @@
 
     .splash {
         color:#ffffff;
-        background:none;
+        background:rgba(0,0,0,.6);
         min-height:80vh;
+    }
+
+    .splash h2 {
+        text-align:left;
     }
 
     .more-details {
