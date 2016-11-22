@@ -9,7 +9,7 @@
 /* Global stuff */
 
     .hidden {
-        display:none!important;
+        display:none;
     }
 
     .clear {
@@ -75,6 +75,10 @@
 
 /* FOOTER CSS */
 
+    .footer {
+        background:#1a1a1a;
+    }
+
     .footer-content {
         width:800px;
         max-width: 100%;
@@ -109,6 +113,10 @@
         display:inline-block;
         width:23px !important;
         height: 23px !important;
+    }
+
+    .icon {
+        max-width:100%;
     }
 
 /* SECTIONS OF PAGE BACKGROUNDS CSS */
@@ -153,6 +161,11 @@
     }
 
 /* FIXING ACTION NETWORK STYLES */
+
+    .an-form {
+        max-width:500px;
+        margin:0 auto;
+    }
 
     #can_embed_form_inner h2, #can_embed_form_inner h4, #logo_wrap, .action_owner, #d_sharing, .country_wrap, .can_thank_you_wrap, #form-comments, .ajax-loading {
         display:none;
