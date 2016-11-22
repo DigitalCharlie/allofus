@@ -180,7 +180,7 @@
         background: rgba(255,255,255,.8);
     }
 
-    .action_welcome_message {
+    #action_welcome_message {
         background-color: rgba(80,80,80,.4);
         padding: 10px;
         border-radius: 5px;
