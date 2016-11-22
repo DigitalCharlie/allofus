@@ -370,6 +370,10 @@
 
     /* button styles */
 
+        .shareButtons {
+            max-width:400px;
+            margin:0 auto 5px;
+        }
 
     /* Blog Posts on Home Page */
 
