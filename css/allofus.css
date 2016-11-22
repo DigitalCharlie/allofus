@@ -351,7 +351,7 @@
         width:100%;
     }
 
-    button, .btn {
+    button, .btn, .button {
         display: inline-block;
         background: #ec476b;
         text-align: center;
@@ -367,7 +367,7 @@
         border-style: none;
     }
 
-    button:hover, .btn:hover {
+    button:hover, .btn:hover, .button:hover {
         background: #71d4dd;
         transition-duration: .5s;
         -webkit-transition-duration: .5s;
