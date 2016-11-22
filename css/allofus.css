@@ -44,6 +44,12 @@
 
     }
 
+    .petiton-text {
+        font-weight:bold;
+        color:#000000;
+    }
+
+
 
 /* HEADER CSS */
 
@@ -366,7 +372,7 @@
         }
 
         h1 {
-            font-size:3em;
+            font-size:3.5em;
         }
 
         h2 {
@@ -381,10 +387,6 @@
 
         }
 
-        .petiton-text {
-            font-weight:bold;
-            color:#000000;
-        }
 
     /* SECTIONS */
 
