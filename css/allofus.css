@@ -147,6 +147,15 @@
         background:#1a1a1a;
     }
 
+    .section-content {
+        max-width:600px;
+        margin:0 auto;
+    }
+
+    .section-header {
+        text-align:center;  
+    }
+
     .splash {
         color:#ffffff;
         background:rgba(0,0,0,.6);
@@ -181,20 +190,20 @@
 
     .what-doing {
         background:none;
+        position:relative;
     }
 
     .what-doing-gif {
         width:100%;
     }
 
-    .section-content {
-        max-width:600px;
-        margin:0 auto;
+    .what-doing-text {
+        position:absolute;
+        left:30%;
+        top:10%;
+        text-align:center;
     }
 
-    .section-header {
-        text-align:center;  
-    }
 
 /* FIXING ACTION NETWORK STYLES */
 
