@@ -157,7 +157,7 @@
     }
 
     .section-content {
-
+        max-width:800px;
     }
 
 /* FIXING ACTION NETWORK STYLES */
