@@ -124,9 +124,8 @@
 /* SECTIONS OF PAGE BACKGROUNDS CSS */
 
     .topLogo {
-        width:70px;
-        float:left;
-        margin:1%;
+        width:100px;
+        margin:3%;
     }
 
     .section {
@@ -366,7 +365,7 @@
     /* SECTIONS */
 
         .topLogo {
-            width:100px;
+            width:120px;
         }
 
     /* button styles */
