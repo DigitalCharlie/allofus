@@ -180,6 +180,13 @@
         background: rgba(255,255,255,.8);
     }
 
+    .action_welcome_message {
+        background-color: rgba(80,80,80,.4);
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
     #can_embed_form_inner h2, #can_embed_form_inner h4, #logo_wrap, .action_owner, #d_sharing, .country_wrap, .can_thank_you_wrap, #form-comments, .ajax-loading {
         display:none;
     }
