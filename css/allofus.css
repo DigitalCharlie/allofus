@@ -139,6 +139,7 @@
     .splash {
         color:#ffffff;
         background:none;
+        min-height:80vh;
     }
 
     .more-details {
