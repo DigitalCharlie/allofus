@@ -23,6 +23,7 @@
         background-color: #1a1a1a;
         background-image: url("../images/bw-crowd.jpg");
         background-repeat:no-repeat;
+        background-attachment: fixed;
     }
 
     p {
