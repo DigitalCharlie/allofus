@@ -163,7 +163,7 @@
     }
 
     .section-content {
-        max-width:800px;
+        max-width:600px;
         margin:0 auto;
     }
 
@@ -174,7 +174,7 @@
 /* FIXING ACTION NETWORK STYLES */
 
     .an-form {
-        max-width:500px;
+        max-width:600px;
         margin:0 auto;
         border-radius: 5px;
         padding: 15px;
