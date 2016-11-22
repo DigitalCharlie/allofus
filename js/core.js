@@ -9,6 +9,17 @@ $(function() {
           $('#can_thank_you h1').html('Thanks!');
      });
 
+/* THIS IS THE HEADER SCROLL STUFF */
+
+  $('.container').scroll(function() {    
+    var scroll = $('.container').scrollTop();
+    if (scroll >= 500){
+      $(".header").css('height', '50px');
+    } else {
+      $(".header").css('height', '0');    
+    }
+  });
+
 
 /* Script Expand button */
 
