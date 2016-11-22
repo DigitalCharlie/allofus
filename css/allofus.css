@@ -49,7 +49,7 @@
         color:#000000;
     }
 
-    .no-decoration {
+    .no-decoration a, .no-decoration{
         text-decoration: none;
         color:#fff;
     }
