@@ -25,6 +25,7 @@
         background-image: url("../images/bw-crowd.jpg");
         background-repeat:no-repeat;
         background-attachment: fixed;
+        font-weight:300;
     }
 
     p {
