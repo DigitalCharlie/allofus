@@ -75,10 +75,6 @@
         vertical-align: top;
     }
 
-    .container {
-        padding-top:50px;
-    }
-
 /* FOOTER CSS */
 
     .footer {
@@ -126,6 +122,12 @@
     }
 
 /* SECTIONS OF PAGE BACKGROUNDS CSS */
+
+    .topLogo {
+        width:100px;
+        float:left;
+        padding:1rem;
+    }
 
     .section {
         padding-top:20px;
@@ -362,6 +364,10 @@
         }
 
     /* SECTIONS */
+
+        .topLogo {
+            width:150px;
+        }
 
     /* button styles */
 
