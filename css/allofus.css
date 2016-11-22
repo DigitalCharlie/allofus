@@ -1,3 +1,11 @@
+/* NOTES
+    pink: #ec476b
+    blue: #71d4dd
+    black: #1a1a1a
+    darker grey: #a7a9ab
+    lighter grey: #3cb8ae
+/*
+
 /* Global stuff */
 
     .hidden {
@@ -11,6 +19,7 @@
 /* TYPOGRAPHY */
     body {
         font-family: roboto;
+        margin:none;
     }
 
     p {
@@ -32,7 +41,7 @@
 /* HEADER CSS */
 
     .header {
-        background-color: rgba(255,103,7,100);
+        background-color: #71d4dd;
         position:fixed;
         height:50px;
         width:100%;
