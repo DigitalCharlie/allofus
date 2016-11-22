@@ -221,6 +221,12 @@
         cursor:pointer;
     }
 
+    [name~=commit]:hover {
+        background: #ec476b;
+        transition-duration: .5s;
+        -webkit-transition-duration: .5s;
+    }
+
     .formIcon {
         width:100px;
         margin:0 auto;
