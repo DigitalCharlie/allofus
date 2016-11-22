@@ -306,6 +306,16 @@
         display:none;
     }
 
+/* MAKING THE MAP WORK */
+
+    #event_map_wrap, #map_canvas {
+        height:300px;
+    }
+
+    #event_map_wrap div {
+        clear:none;
+    }
+
 
 /* Share Buttons */
 
