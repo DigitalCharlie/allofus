@@ -199,8 +199,11 @@
 
     .what-doing-text {
         position:absolute;
-        left:30%;
-        top:10%;
+        width: 600px;
+        height: 500px;
+        max-height:90vh;
+        margin:-250px auto;
+        top:48%;
         text-align:center;
     }
 
