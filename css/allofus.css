@@ -1,0 +1,360 @@
+/* Global stuff */
+
+    .hidden {
+        display:none!important;
+    }
+
+    .clear {
+        clear:both;
+    }
+
+/* TYPOGRAPHY */
+    body {
+        font-family: roboto;
+    }
+
+    p {
+    }
+
+    h1 {
+
+    }
+
+    h2 {
+
+    }
+
+    h3 {
+
+    }
+
+
+/* HEADER CSS */
+
+    .header {
+        background-color: rgba(255,103,7,100);
+        position:fixed;
+        height:50px;
+        width:100%;
+        z-index: 1;
+    }
+
+    .header-logo {
+        height:40px;
+        padding:5px 20px;
+        float:left;
+        display: inline-block;
+    }
+
+    .header-buttons {
+        display:none;
+    }
+
+    .header-text {
+        border-right: 1px solid white;
+        text-decoration:none;
+        color:#ffffff;
+        font-weight: bold;
+        font-size:24px;
+        padding-right:15px;
+        vertical-align: top;
+    }
+
+/* FOOTER CSS */
+
+    .footer-content {
+        width:800px;
+        max-width: 100%;
+        margin:0 auto;
+        padding: 40px 0 40px 0;
+    }
+
+    .footer-text {
+        font-style: italic;
+        text-decoration: none;
+        color:#ffffff;
+        font-size:14px;
+        text-align: center;
+        font-weight:normal;
+        margin:0 0 10px 0;
+        padding:0 5px;
+    }
+
+    .footer-text:hover {
+        color: rgba(255,103,7,100);
+        transition-duration: .5s;
+        -webkit-transition-duration: .5s;
+    }
+
+    .footer-buttons {
+        width:110px;
+        margin:0 auto;
+    }
+
+    .sp_fb_small, .sp_tw_small, .sp_em_small {
+        padding:3px 5px 0 5px;
+        display:inline-block;
+    }
+
+    .sp_fb_small a {
+        background: url(http://www.tppwhipcount.com/images/facebook-icon.png) !important;
+        background-size:100% !important;
+        width:23px !important;
+        height: 23px !important;
+    }
+
+    .sp_tw_small a {
+        background: url(http://www.tppwhipcount.com/images/twitter-icon.png) !important;
+        background-size:100% !important;
+        width:23px !important;
+        height: 23px !important;
+    }
+
+    .sp_em_small a {
+        background: url(http://www.tppwhipcount.com/images/email-icon.png) !important;
+        background-size:100% !important;
+        width:23px !important;
+        height: 23px !important;
+    }
+
+/* SECTIONS OF PAGE BACKGROUNDS CSS */
+
+    .section {
+        padding-top:20px;
+        padding-left:5%;
+        padding-right:5%;
+        padding-bottom:30px;
+    }
+
+    .splash {
+        background-color: #000000;
+        background-image: url("../images/stopthetppsign.jpg");
+        background-size:100%;
+        background-repeat:no-repeat;
+        color:#ffffff;
+        padding-bottom:10px;
+    }
+
+    .more-details {
+
+    }
+
+    .distributed-actions {
+
+    }
+
+    .even-more-details {
+
+    }
+
+    .what-saying {
+
+    }
+
+    .what-doing {
+
+    }
+
+    .section-content {
+
+    }
+
+/* FIXING ACTION NETWORK STYLES */
+
+    #can_embed_form_inner h2, h4, #logo_wrap, .action_owner, #d_sharing, .country_wrap, .can_thank_you_wrap, #form-comments {
+        display:none;
+    }
+
+    .can_thank_you_wrap {
+        opacity:0;
+        height:0;
+    }
+
+    #form-first_name, #form-last_name, #form-email, #form-zip_code {
+        border:1px solid #1a1a1a;
+        padding:0;
+        margin-top:5px;
+        height: 40px;
+        vertical-align: bottom;
+        border-radius: 5px;
+        font-size: 14px;
+        font-family:roboto;
+        width: 100%;
+        color:black;
+        padding:0 0 0 2%;
+        box-sizing: border-box;
+        background: #fff;
+        cursor: text;
+    }
+    #form-first_name:focus, #form-last_name:focus, #form-email:focus, #form-zip_code:focus {
+        box-shadow: 0 0 10px #71d4dd;
+        outline-color:#71d4dd;
+    }
+
+    .error_input {
+        border:1px solid red !important;
+    }
+
+    .error_input:focus {
+        outline-color:red !important;
+        box-shadow: 0 0 10px red !important;
+    }
+
+    [name~=commit] {
+        width:100%;
+        text-align:center;
+        background-color: #71d4dd;
+        height:40px;
+        margin-top:5px;
+        border:none;
+        font-family:roboto;
+        color:#fff;
+        font-weight:900;
+        border-radius:5px;
+        font-size:18px;
+        cursor:pointer;
+    }
+
+    .formIcon {
+        width:100px;
+        margin:0 auto;
+    }
+
+    .formIcon.share {
+        margin-top:10px;
+    }
+
+    #can_embed_form_inner h3 {
+        display:none;
+    }
+
+
+/* Share Buttons */
+
+    .facebook {
+        background: #3b5998;
+    }
+    
+    .twitter {
+        background: #1DA1F2;
+    }
+    
+    .email {
+        background: rgb(50, 177, 34);
+    }
+
+    .share-button {
+        width: 100%;
+        margin-bottom:5px;
+    }
+
+    .share-button:hover {
+        background: #ec476b;
+        transition-duration: .5s;
+        -webkit-transition-duration: .5s;
+    }
+
+    .shareButtons {
+        width:100%;
+    }
+
+    button {
+        display: inline-block;
+        background: rgb(50, 177, 34);
+        text-align: center;
+        padding:8px 20px;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color:#ffffff;
+        border-radius: 5px;
+        cursor: pointer;
+        border-style: none;
+    }
+
+    button:hover {
+        background: #ec476b;
+        transition-duration: .5s;
+        -webkit-transition-duration: .5s;
+    }
+
+/* Blog Posts on Home Page */
+
+    .blog-post-image {
+        width:100%;
+        margin:5px auto 0;
+        max-width:400px;
+    }
+
+    .blog-post {
+        width:100%;
+        text-align: center;
+        margin-bottom:20px;
+    }
+
+    .blog-post-link {
+        text-decoration: none;
+        color:#000000;
+        font-weight:normal;
+    }
+
+    .blog-post-title {
+        margin:0;
+    }
+
+@media screen and (min-width: 650px) {
+
+    /* Header */
+
+        .header-buttons {
+            height:30px;
+            padding:5px 20px;
+            float:right;
+            margin-top:5px;
+            display:inherit;
+        }
+
+    /* Type */
+
+        h1 {
+        }
+
+        h2 {
+
+        }
+
+        h3 {
+
+        }
+
+        p {
+
+        }
+
+    /* button styles */
+
+        .share-button {
+            font-size: 14px;
+            width: 32.4%;
+            margin: .25%;
+        }
+
+        .action-button {
+            width:250px;
+            margin: 0 auto;
+            display:block;
+        }
+
+    /* Blog Posts on Home Page */
+
+        .blog-post {
+            width:31.33%;
+            float:left;
+            margin:1%;
+        }
+
+        .blog-post-image {
+            max-width:auto;
+        }

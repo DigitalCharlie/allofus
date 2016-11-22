@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<style>
+
+	@media screen and (min-width: 650px) {
+		.sp_tw_large, .sp_fb_large, .sp_em_large{width:49%;}
+	}
+
+</style>
+
+<div class="post">
+  
+  <h2 class="post-title">{{ page.title }}</h2>
+  
+  <p class="post-text">{{ page.text }}</p>
+  
+  <iframe class="video-embed" src="https://www.youtube.com/embed/{{ page.video-url }}" frameborder="0" allowfullscreen></iframe>
+
+	<div class="blog-post-call-to-action">
+
+		<div class="cta-content">
+
+		<h3 class="blog-cta-h3">Take Action to Stop the TPP</h3>
+
+		<p class="cta-sidebar-text">We need to get as many representatives on our side as possible to stop the TPP, otherwise it will pass during the lame duck session. <br /><br />Enter your Zip code below and we'll connect you to your Representative.</p>
+
+			<form id="basic-search"> 
+
+	         	<input name="zip" id="zip-search" type="text" class="zip-input blog-post-cta" placeholder="Enter your zip code">
+
+	         	<button type="submit" class="submit-button blog-post-cta-submit" id="zip-submit">Take Action</button>
+
+	     	</form>
+
+		</div>
+
+	</div>
+
+	<div class="video-share-container">
+
+		{{ page.facebookbutton }}
+		{{ page.twitterbutton }}
+
+	</div>
+
+</div>
+
+

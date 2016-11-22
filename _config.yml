@@ -1,0 +1,13 @@
+# Setup
+title:               AllOfUs
+tagline:             'tagline?'
+description:         'description?'
+url:                 http://www.allofus.org
+baseurl:             
+
+# About/contact
+author:
+  name:              Charlie Furman
+  url:               https://twitter.com/digitalcharlie
+  email:             furman.jr@gmail.com
+
