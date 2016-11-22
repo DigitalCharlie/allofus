@@ -316,6 +316,10 @@
         clear:none;
     }
 
+    #can_embed_form h2 {
+        display:none;
+    }
+
 
 /* Share Buttons */
 
