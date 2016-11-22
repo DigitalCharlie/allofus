@@ -124,9 +124,9 @@
 /* SECTIONS OF PAGE BACKGROUNDS CSS */
 
     .topLogo {
-        width:100px;
+        width:70px;
         float:left;
-        padding:1rem;
+        margin-left:-20px;
     }
 
     .section {
@@ -366,7 +366,7 @@
     /* SECTIONS */
 
         .topLogo {
-            width:150px;
+            width:100px;
         }
 
     /* button styles */
