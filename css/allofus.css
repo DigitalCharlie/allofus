@@ -19,6 +19,7 @@
 /* TYPOGRAPHY */
     body {
         font-family: roboto;
+        color:#fff;
         margin:0;
         background-color: #1a1a1a;
         background-image: url("../images/bw-crowd.jpg");
@@ -27,6 +28,7 @@
     }
 
     p {
+
     }
 
     h1 {
@@ -34,7 +36,7 @@
     }
 
     h2 {
-
+        text-align:center;
     }
 
     h3 {
