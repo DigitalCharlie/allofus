@@ -366,6 +366,7 @@
         }
 
         h1 {
+            font-size:3em;
         }
 
         h2 {
@@ -378,6 +379,11 @@
 
         p {
 
+        }
+
+        .petiton-text {
+            font-weight:bold;
+            color:#000000;
         }
 
     /* SECTIONS */
