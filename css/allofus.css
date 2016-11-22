@@ -175,7 +175,8 @@
     }
 
     .what-doing {
-
+        background-image:url("../images/bg-gif.gif");
+        width:100%;
     }
 
     .section-content {
