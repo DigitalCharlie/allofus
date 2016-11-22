@@ -48,6 +48,8 @@
         background-color: #71d4dd;
         position:fixed;
         width:100%;
+        overflow:hidden;
+        height:0;
         z-index: 1;
         transition: .5s;
     }

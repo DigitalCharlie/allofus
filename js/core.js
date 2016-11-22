@@ -12,7 +12,7 @@ $(function() {
 /* THIS IS THE HEADER SCROLL STUFF */
 
   $(window).scroll(function() {    
-    if (scroll >= 500){
+    if (scroll >= 250){
       $(".header").css('height', '50px');
     } else {
       $(".header").css('height', '0');    
