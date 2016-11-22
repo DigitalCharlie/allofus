@@ -13,7 +13,7 @@ $(function() {
 
   $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
-    if (scroll >= 100){
+    if (scroll >= 500){
       $(".header").css('height', '50px');
     } else {
       $(".header").css('height', '0');    
