@@ -11,8 +11,7 @@ $(function() {
 
 /* THIS IS THE HEADER SCROLL STUFF */
 
-  $('.container').scroll(function() {    
-    var scroll = $('.container').scrollTop();
+  $(window).scroll(function() {    
     if (scroll >= 500){
       $(".header").css('height', '50px');
     } else {

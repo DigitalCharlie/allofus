@@ -47,7 +47,6 @@
     .header {
         background-color: #71d4dd;
         position:fixed;
-        height:50px;
         width:100%;
         z-index: 1;
         transition: .5s;
