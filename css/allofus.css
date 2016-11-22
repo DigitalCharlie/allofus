@@ -49,6 +49,11 @@
         color:#000000;
     }
 
+    .no-decoration {
+        text-decoration: none;
+        color:#fff;
+    }
+
 
 
 /* HEADER CSS */
@@ -175,7 +180,10 @@
     }
 
     .what-doing {
-        background-image:url("../images/bg-gif.gif");
+        background:none;
+    }
+
+    .what-doing-gif {
         width:100%;
     }
 
