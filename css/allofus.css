@@ -131,7 +131,6 @@
     .splash {
         background-color: #1a1a1a;
         background-image: url("../images/bw-crowd.jpg");
-        background-size:100%;
         background-repeat:no-repeat;
         color:#ffffff;
     }
@@ -170,6 +169,9 @@
     .an-form {
         max-width:500px;
         margin:0 auto;
+        border-radius: 5px;
+        padding: 15px;
+        background: rgba(255,255,255,.8);
     }
 
     #can_embed_form_inner h2, #can_embed_form_inner h4, #logo_wrap, .action_owner, #d_sharing, .country_wrap, .can_thank_you_wrap, #form-comments, .ajax-loading {
@@ -182,7 +184,7 @@
     }
 
     #form-first_name, #form-last_name, #form-email, #form-zip_code {
-        border:1px solid #1a1a1a;
+        border:1px solid rgba(36,36,36,0.4);
         padding:0;
         margin-top:5px;
         height: 40px;
@@ -349,6 +351,12 @@
         p {
 
         }
+
+    /* SECTIONS */
+
+    .splash {
+        background-size:100%;
+    }
 
     /* button styles */
 
