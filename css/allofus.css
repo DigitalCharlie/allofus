@@ -256,18 +256,6 @@
 
 /* Share Buttons */
 
-    .facebook {
-        background: #3b5998;
-    }
-    
-    .twitter {
-        background: #1DA1F2;
-    }
-    
-    .email {
-        background: rgb(50, 177, 34);
-    }
-
     .share-button {
         width: 100%;
         margin-bottom:5px;
@@ -303,6 +291,18 @@
         background: #71d4dd;
         transition-duration: .5s;
         -webkit-transition-duration: .5s;
+    }
+
+    .facebook {
+        background: #3b5998;
+    }
+    
+    .twitter {
+        background: #1DA1F2;
+    }
+    
+    .email {
+        background: #ec476b;
     }
 
 /* Blog Posts on Home Page */
@@ -370,17 +370,6 @@
 
     /* button styles */
 
-        .share-button {
-            font-size: 14px;
-            width: 32.4%;
-            margin: .25%;
-        }
-
-        .action-button {
-            width:250px;
-            margin: 0 auto;
-            display:block;
-        }
 
     /* Blog Posts on Home Page */
 
