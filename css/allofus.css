@@ -204,6 +204,11 @@
         text-align: center;
     }
 
+    .action-thanks, .action-thanks h2 {
+        color:#000000;
+        text-align:center;
+    }
+
     #can_embed_form_inner h2, #can_embed_form_inner h4, #logo_wrap, .action_owner, #d_sharing, .country_wrap, .can_thank_you_wrap, #form-comments, .ajax-loading {
         display:none;
     }
