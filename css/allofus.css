@@ -258,6 +258,7 @@
         background: #fff;
         cursor: text;
     }
+
     #form-first_name:focus, #form-last_name:focus, #form-email:focus, #form-zip_code:focus {
         box-shadow: 0 0 10px #71d4dd;
         outline-color:#71d4dd;
@@ -272,8 +273,7 @@
         box-shadow: 0 0 10px red !important;
     }
 
-    [name~=commit] {
-        width:100%;
+    [name~=commit], #form-zip_code-submit {
         text-align:center;
         background-color: #71d4dd;
         height:40px;
@@ -286,6 +286,15 @@
         font-size:18px;
         cursor:pointer;
     }
+
+    [name~=commit] {
+        width:100%;
+    }
+
+    #form-zip_code-submit {
+        width:40%;
+    }
+
 
     [name~=commit]:hover {
         background: #ec476b;
@@ -318,6 +327,10 @@
 
     #can_embed_form h2 {
         display:none;
+    }
+
+    .event_campaign #form-zip_code {
+        width:60%;
     }
 
 
