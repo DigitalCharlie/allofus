@@ -20,6 +20,9 @@ $(function() {
     }
   });
 
+/* TEXT CHANGE */
+
+  $('.widget_title').html("Don't see an event near you and want to host one?");
 
 /* Script Expand button */
 
