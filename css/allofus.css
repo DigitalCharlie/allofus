@@ -342,6 +342,11 @@
         display:none;
     }
 
+    #search_location_list {
+        text-align:center;
+        margin-top:10px;
+    }
+
 
 /* Share Buttons */
 
