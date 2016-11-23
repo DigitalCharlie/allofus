@@ -233,7 +233,7 @@
         text-align:center;
     }
 
-    #can_embed_form_inner h2, #can_embed_form_inner h4, #logo_wrap, .action_owner, #d_sharing, .country_wrap, .can_thank_you_wrap, #form-comments, .ajax-loading {
+    #can_embed_form_inner h2, #can_embed_form_inner h4, #logo_wrap, .action_owner, #d_sharing, .country_wrap, .can_thank_you_wrap, #form-comments, .ajax-loading, #search_location_list, #form_col1 h4, #can_embed_form h2 {
         display:none;
     }
 
@@ -292,7 +292,7 @@
     }
 
     #form-zip_code-submit {
-        width:35%;
+        width:36%;
     }
 
 
@@ -319,24 +319,26 @@
 
     #event_map_wrap, #map_canvas {
         height:300px;
+        margin-top:10px;
     }
 
     #event_map_wrap div {
         clear:none;
     }
 
-    #can_embed_form h2 {
-        display:none;
+    .event_campaign #form-zip_code {
+        width:63%;
     }
 
-    .event_campaign #form-zip_code {
-        width:60%;
+    #host_your_own .widget_title h4 {
+        text-align: center;
+        font-style: italic;
     }
 
 
 /* Share Buttons */
 
-    .share-button {
+    .share-button, .button {
         width: 100%;
         margin-bottom:5px;
     }
