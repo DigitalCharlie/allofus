@@ -46,7 +46,7 @@ $(function() {
 
 /* CHANGE SOME TEXT */
 
-  $(".widget_title").text("Don't see an event near you and want to host one?");
+  $('.widget_title').html("Don't see an event near you and want to host one?");
 
 
 });
