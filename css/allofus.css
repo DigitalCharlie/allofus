@@ -338,6 +338,10 @@
         font-weight:300;
     }
 
+    #form_col3 .widget_title, #form_col1 h4 {
+        display:none;
+    }
+
 
 /* Share Buttons */
 
