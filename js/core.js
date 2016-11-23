@@ -20,11 +20,6 @@ $(function() {
     }
   });
 
-/* TEXT CHANGE */
-  $(window).load(function(){
-    $('.widget_title').html("Don't see an event near you and want to host one?");
-  });
-
 /* Script Expand button */
 
 	$("#sample-script-button").click(function() {
@@ -49,3 +44,9 @@ $(function() {
 	})
 
 });
+
+/* TEXT CHANGE */
+
+  $(document).ready(function() {
+    $('.widget_title').html("Don't see an event near you and want to host one?");
+  });
