@@ -293,10 +293,11 @@
 
     #form-zip_code-submit {
         width:36%;
+        text-transform: uppercase;
     }
 
 
-    [name~=commit]:hover {
+    [name~=commit]:hover, #form-zip_code-submit:hover {
         background: #ec476b;
         transition-duration: .5s;
         -webkit-transition-duration: .5s;
@@ -330,9 +331,10 @@
         width:63%;
     }
 
-    #host_your_own .widget_title h4 {
+    .widget-title h4 {
         text-align: center;
         font-style: italic;
+        margin:5px;
     }
 
 
@@ -355,7 +357,6 @@
 
     button, .btn, .button {
         display: inline-block;
-        background: #ec476b;
         text-align: center;
         padding:8px 0;
         font-size: 18px;
@@ -369,8 +370,22 @@
         border-style: none;
     }
 
-    button:hover, .btn:hover, .button:hover {
+    .button {
         background: #71d4dd;
+    }
+
+    button, .btn {
+        background: #ec476b;
+    }
+
+    button:hover, .btn:hover {
+        background: #71d4dd;
+        transition-duration: .5s;
+        -webkit-transition-duration: .5s;
+    }
+
+    .button:hover {
+        background: #ec476b;
         transition-duration: .5s;
         -webkit-transition-duration: .5s;
     }
