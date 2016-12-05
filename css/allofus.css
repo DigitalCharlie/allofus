@@ -401,6 +401,16 @@
         -webkit-transition-duration: .5s;
     }
 
+    .donate-button {
+        background-color:#ec476b;
+    }
+
+    .donate-button:hover {
+        background: #71d4dd;
+        transition-duration: .5s;
+        -webkit-transition-duration: .5s;   
+    }
+
     .facebook {
         background: #3b5998;
     }
@@ -483,6 +493,12 @@
         .shareButtons {
             max-width:400px;
             margin:0 auto 5px;
+        }
+
+        .donate-button {
+            width:300px;
+            margin:0 auto;
+            display:block;
         }
 
     /* Blog Posts on Home Page */
