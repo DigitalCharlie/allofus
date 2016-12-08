@@ -403,6 +403,7 @@
 
     .donate-button {
         background-color:#ec476b;
+        width:100%;
     }
 
     .donate-button:hover {
