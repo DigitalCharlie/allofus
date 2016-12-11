@@ -29,7 +29,7 @@ $(function() {
         setTimeout(function() {
         $('#homepage-read-more-link').css('opacity', 0);
         }, 50);
-        $('#homepage-read-more-content').css('display', 'block');
+        $('#homepage-read-more-content').css('display', 'inline');
         setTimeout(function() {
         $('.homepage-read-more-content').css('opacity', 1);
         }, 50);;

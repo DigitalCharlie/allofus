@@ -162,6 +162,7 @@
         color:#ffffff;
         background:rgba(0,0,0,.6);
         min-height:80vh;
+        padding-top:70px;
     }
 
     .splash h2 {
@@ -220,7 +221,7 @@
     }
 
     #homepage-read-more-link {
-        
+
     }
 
 /* FIXING ACTION NETWORK STYLES */
