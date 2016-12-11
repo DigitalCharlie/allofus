@@ -65,7 +65,7 @@
         position:fixed;
         width:100%;
         overflow:hidden;
-        height:0;
+        height:50px;
         z-index: 1;
         transition: .3s;
         box-shadow: 0px 3px 5px rgba(10, 10, 10, 0.8);
@@ -211,6 +211,17 @@
         text-shadow: 1px 2px 7px #000;
     }
 
+/* MAKING THAT SECTION SLIDE */
+
+    #homepage-read-more-content {
+        transition: 1s;
+        display:none;
+        opacity:0;
+    }
+
+    #homepage-read-more-link {
+        
+    }
 
 /* FIXING ACTION NETWORK STYLES */
 
